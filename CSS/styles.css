@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}   
+
+header nav {
+    background-color: #333;
+}
+
+#main-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.7rem;
+    padding: 0 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#main-nav a {
+    color: rgb(207, 207, 207);
+    transition: 0.5s;
+}
+
+#main-nav a:hover {
+    color: white;
+}
+
+#sub-nav {
+    font-size: 0.8rem;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+#sub-nav h3 {
+    color: #333;
+}
+
+#sub-nav-list {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sub-nav-links a {
+    margin: 0 0.5rem;
+    color: #333
+}
+
+#sub-nav-links .btn, .btn {
+    background-color:  #0071e3;
+    border-radius: 10rem;
+    padding: .4rem 1rem;
+    color: white;
+}
+
+/* main content */
+
+.ribbon {
+    text-align: center;
+    color: rgb(72, 72, 72);
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+
+.ribbon a {
+    color: #0071e3;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    color: #1d1d1d;
+    text-align: center;
+    justify-content: center;
+}
+
+#main-content #title {
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+#main-content #subtitle {
+    margin: 1rem;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#main-content #description {
+    margin: 0 auto;
+    font-size: 1.1rem;
+    max-width: 600px;
+    line-height: 1.5rem;
+}   
+
+#main-content #price {
+    font-size: 1.3rem;
+    color: #86868b;
+    margin: 2rem;
+}
+
+#main-content .btn {
+    font-size: 1.1rem;
+    padding: 0.8rem 1.4rem;
+    align-self: center;
+}
+  
